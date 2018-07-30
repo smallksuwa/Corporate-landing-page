@@ -1,0 +1,423 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  font-size: 16px; }
+  body header {
+    height: 880px;
+    width: 100%;
+    background: url("../img/photo-1433354359170-23a4ae7338c61.jpg");
+    background-size: 100% 130%; }
+    body header div.container div div h1 {
+      font-family: 'Exo', sans-serif;
+      font-weight: 300;
+      font-size: 3.75rem;
+      line-height: 1.25;
+      color: #282828; }
+    body header div.container div div button.video {
+      background: #8084a2;
+      border-radius: 50%;
+      border: none;
+      width: 59px;
+      height: 59px;
+      cursor: pointer; }
+      body header div.container div div button.video i {
+        color: #f4f5f7; }
+    body header div.container div div button#button {
+      font-family: 'Exo', sans-serif;
+      font-size: 1rem;
+      color: white;
+      background: #ff6d6d;
+      width: 190px;
+      height: 50px;
+      border: none;
+      border-radius: 3px; }
+    body header div.container div div p {
+      font-family: 'Exo', sans-serif;
+      font-size: 0.875rem;
+      color: rgba(40, 40, 40, 0.6);
+      line-height: 5.357;
+      font-weight: bold; }
+  body section#section2 {
+    height: 724px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../img/5.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 568px 724px;
+    position: relative;
+    z-index: 1; }
+    body section#section2::after {
+      content: "";
+      border: 482px solid transparent;
+      border-right: 568px solid #ff6d6d;
+      border-bottom: 568px solid #ff6d6d;
+      position: absolute;
+      top: 242px;
+      right: 0;
+      z-index: 2; }
+    body section#section2 div.container {
+      z-index: 5; }
+      body section#section2 div.container div.row div {
+        z-index: 3; }
+        body section#section2 div.container div.row div h2 {
+          color: #ff6d6d;
+          font-family: "Exo", sans-serif;
+          font-size: 1rem;
+          font-weight: bold;
+          line-height: 1.125; }
+        body section#section2 div.container div.row div h3 {
+          color: #282828;
+          font-family: "Exo", sans-serif;
+          font-size: 2.5rem;
+          font-weight: 400;
+          line-height: 1.25; }
+          body section#section2 div.container div.row div h3 .red {
+            color: #ff6d6d; }
+        body section#section2 div.container div.row div p {
+          color: rgba(40, 40, 40, 0.6);
+          font-family: 'Exo', sans-serif;
+          font-size: 1rem;
+          font-weight: bold;
+          line-height: 1.625; }
+  body section#section3 {
+    height: 675px;
+    width: 100%;
+    background: url("../img/Earphones.png") 86% -2% no-repeat, url("../img/Coffee Cup.png") 100% 131% no-repeat, url("../img/Pen holder.png") -2% -4% no-repeat, #f6f5f3; }
+    body section#section3 div div div.capture {
+      margin-top: 85px; }
+      body section#section3 div div div.capture h2 {
+        color: #ff6d6d;
+        font-family: "Exo", sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.125; }
+      body section#section3 div div div.capture h3 {
+        color: #282828;
+        font-family: "Exo", sans-serif;
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.25; }
+    body section#section3 div div div.items {
+      margin-bottom: 60px; }
+      body section#section3 div div div.items img {
+        height: 65px;
+        width: 65px; }
+      body section#section3 div div div.items h4 {
+        font-family: "Exo", sans-serif;
+        font-size: 1.5rem;
+        color: #282828;
+        font-weight: bolder;
+        line-height: 2.271;
+        margin-top: 25px; }
+      body section#section3 div div div.items p {
+        font-family: "Exo", sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        color: rgba(40, 40, 40, 0.6);
+        line-height: 1.625; }
+  body section#description {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    position: relative; }
+    body section#description::before {
+      content: "";
+      border: 608px solid transparent;
+      border-left: 608px solid #ff6d6d;
+      border-bottom: 608px solid #ff6d6d;
+      position: absolute;
+      top: -90px;
+      left: 0;
+      z-index: -50; }
+    body section#description div div.row div.col-12.col-lg-6 img {
+      height: 360px;
+      width: 600px; }
+    body section#description div div.row div.col-12.col-lg-5.offset-lg-1 h2 {
+      color: #ff6d6d;
+      font-family: "Exo", sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1.125; }
+    body section#description div div.row div.col-12.col-lg-5.offset-lg-1 h3 {
+      color: #282828;
+      font-family: "Exo", sans-serif;
+      font-size: 2.5rem;
+      font-weight: 400;
+      line-height: 1.25; }
+      body section#description div div.row div.col-12.col-lg-5.offset-lg-1 h3 .red {
+        color: #ff6d6d; }
+    body section#description div div.row div.col-12.col-lg-5.offset-lg-1 p {
+      color: rgba(40, 40, 40, 0.6);
+      font-family: "Exo", sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1.625; }
+  body section#clients {
+    height: 648px;
+    width: 100%;
+    background: url("../img/Group 4.png"), #000; }
+    body section#clients div div.row {
+      padding-top: 80px; }
+      body section#clients div div.row div.col-4 img {
+        height: 76px;
+        width: 76px;
+        color: #a6a7aa; }
+      body section#clients div div.row div.col-4 h3 {
+        font-family: "Exo", sans-serif;
+        font-size: 1.375rem;
+        line-height: 2.271;
+        color: white; }
+      body section#clients div div.row div.col-4 h4 {
+        font-family: "Exo", sans-serif;
+        font-size: 1rem;
+        line-height: 3.125;
+        color: #ff6d6d; }
+      body section#clients div div.row div.col-4 p {
+        font-family: "Exo", sans-serif;
+        font-size: 1rem;
+        line-height: 1.625;
+        color: rgba(255, 255, 255, 0.69);
+        font-style: italic; }
+  body section#browser {
+    height: 754px;
+    width: 100%;
+    background: #f6f5f3;
+    overflow: hidden; }
+    body section#browser div {
+      padding-top: 51px; }
+      body section#browser div div div h2 {
+        color: #ff6d6d;
+        font-family: "Exo", sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.125; }
+      body section#browser div div div h3 {
+        color: #282828;
+        font-family: "Exo", sans-serif;
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 1.25; }
+      body section#browser div div div p {
+        color: rgba(40, 40, 40, 0.6);
+        font-family: "Exo", sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.625; }
+  body section#try-now {
+    height: 467px;
+    width: 100%;
+    background: #323969; }
+    body section#try-now div div div.col-12 h2 {
+      color: #ff6d6d;
+      font-family: "Exo", sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1.125; }
+    body section#try-now div div div.col-12 h3 {
+      color: white;
+      font-family: "Exo", sans-serif;
+      font-size: 2.5rem;
+      font-weight: 400;
+      line-height: 1.25; }
+    body section#try-now div div div.col-12.offset-md-9.col-md-3 p {
+      color: #f6f5f3;
+      font-family: "Exo", sans-serif;
+      font-size: 1rem;
+      line-height: 4.688;
+      margin-left: -30px;
+      display: inline-block;
+      margin-top: 5px; }
+    body section#try-now div div div.col-12.col-md-3 input {
+      border: 1px solid white;
+      border-radius: 3px;
+      width: 261px;
+      height: 47px; }
+      body section#try-now div div div.col-12.col-md-3 input[type="email"], body section#try-now div div div.col-12.col-md-3 input[type="text"], body section#try-now div div div.col-12.col-md-3 input[type="password"] {
+        background: rgba(255, 255, 255, 0.2);
+        opacity: 0.502; }
+        body section#try-now div div div.col-12.col-md-3 input[type="email"]::-webkit-input-placeholder, body section#try-now div div div.col-12.col-md-3 input[type="text"]::-webkit-input-placeholder, body section#try-now div div div.col-12.col-md-3 input[type="password"]::-webkit-input-placeholder {
+          font-family: "Exo", sans-serif;
+          font-size: 1rem;
+          color: #f4f5f7;
+          line-height: 4.688;
+          text-transform: uppercase;
+          padding-left: 30px; }
+        body section#try-now div div div.col-12.col-md-3 input[type="email"]::-moz-placeholder, body section#try-now div div div.col-12.col-md-3 input[type="text"]::-moz-placeholder, body section#try-now div div div.col-12.col-md-3 input[type="password"]::-moz-placeholder {
+          font-family: "Exo", sans-serif;
+          font-size: 1rem;
+          color: #f4f5f7;
+          line-height: 4.688;
+          text-transform: uppercase; }
+        body section#try-now div div div.col-12.col-md-3 input[type="email"]:-ms-input-placeholder, body section#try-now div div div.col-12.col-md-3 input[type="text"]:-ms-input-placeholder, body section#try-now div div div.col-12.col-md-3 input[type="password"]:-ms-input-placeholder {
+          font-family: "Exo", sans-serif;
+          font-size: 1rem;
+          color: #f4f5f7;
+          line-height: 4.688;
+          text-transform: uppercase; }
+        body section#try-now div div div.col-12.col-md-3 input[type="email"]:-moz-placeholder, body section#try-now div div div.col-12.col-md-3 input[type="text"]:-moz-placeholder, body section#try-now div div div.col-12.col-md-3 input[type="password"]:-moz-placeholder {
+          font-family: "Exo", sans-serif;
+          font-size: 1rem;
+          color: #f4f5f7;
+          line-height: 4.688;
+          text-transform: uppercase; }
+    body section#try-now div div div.col-12.col-md-3 input[type="submit"] {
+      background: #ff6d6d;
+      font-family: "Exo", sans-serif;
+      font-size: 1rem;
+      color: #f4f5f7;
+      text-transform: uppercase;
+      border-color: #ff6d6d; }
+    body section#try-now div div div.col-12.text-center p {
+      color: #a0a2b6; }
+      body section#try-now div div div.col-12.text-center p a {
+        color: inherit;
+        text-decoration: underline; }
+  body footer {
+    width: 100%;
+    height: 332px;
+    position: relative;
+    overflow: hidden; }
+    body footer::after {
+      content: "";
+      border: 334px solid transparent;
+      border-right: 0 solid #ff6d6d;
+      border-top: 340px solid #ff6d6d;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -50; }
+    body footer div {
+      padding-top: 30px; }
+      body footer div div div.col-12.col-md-3 p {
+        font-size: 0.875rem;
+        font-family: "Exo", sans-serif;
+        color: rgba(40, 40, 40, 0.6);
+        font-weight: bold;
+        line-height: 1.857; }
+      body footer div div div.col-4.col-md-2 h2 {
+        font-family: "Exo", sans-serif;
+        font-size: 1.37575rem;
+        color: #282828;
+        font-weight: bold; }
+      body footer div div div.col-4.col-md-2 p {
+        margin-bottom: 6px; }
+        body footer div div div.col-4.col-md-2 p a {
+          font-family: "Exo", sans-serif;
+          font-size: 0.875rem;
+          color: rgba(40, 40, 40, 0.6);
+          font-weight: bold;
+          line-height: 2.143; }
+      body footer div div div.col-4.col-md-4 {
+        position: relative; }
+        body footer div div div.col-4.col-md-4 h2 {
+          font-family: "Exo", sans-serif;
+          font-size: 1.37575rem;
+          color: #282828;
+          font-weight: bold; }
+        body footer div div div.col-4.col-md-4 input[type="email"] {
+          width: 261px;
+          height: 47px;
+          border: 1px solid #4e4e5e;
+          border-radius: 3px;
+          background-color: rgba(141, 141, 141, 0.2);
+          opacity: 0.4; }
+          body footer div div div.col-4.col-md-4 input[type="email"]::-webkit-input-placeholder {
+            font-family: "Exo", sans-serif;
+            font-size: 1rem;
+            color: rgba(0, 0, 0, 0.4);
+            line-height: 4.688;
+            text-transform: uppercase;
+            padding-left: 30px; }
+          body footer div div div.col-4.col-md-4 input[type="email"]::-moz-placeholder {
+            font-family: "Exo", sans-serif;
+            font-size: 1rem;
+            color: rgba(0, 0, 0, 0.4);
+            line-height: 4.688;
+            text-transform: uppercase; }
+          body footer div div div.col-4.col-md-4 input[type="email"]:-ms-input-placeholder {
+            font-family: "Exo", sans-serif;
+            font-size: 1rem;
+            color: rgba(0, 0, 0, 0.4);
+            line-height: 4.688;
+            text-transform: uppercase; }
+          body footer div div div.col-4.col-md-4 input[type="email"]:-moz-placeholder {
+            font-family: "Exo", sans-serif;
+            font-size: 1rem;
+            color: rgba(0, 0, 0, 0.4);
+            line-height: 4.688;
+            text-transform: uppercase; }
+        body footer div div div.col-4.col-md-4 button[type="submit"] {
+          width: 50px;
+          height: 47px;
+          background: #ff6d6d;
+          border: 1px solid #ff6d6d;
+          border-radius: 3px;
+          box-shadow: 0 3px 3px 0 rgba(14, 15, 15, 0.25);
+          position: absolute;
+          top: 64px;
+          right: 56px; }
+        body footer div div div.col-4.col-md-4 a {
+          padding: 0 0 0 11%; }
+
+@media screen and (max-width: 1200px) {
+  body section#try-now div div div.col-12.col-md-3 input {
+    width: 210px; }
+  body footer div div div.col-4.col-md-4 input[type="email"] {
+    width: 210px; } }
+
+@media screen and (max-width: 992px) {
+  body section#description {
+    height: 650px; }
+    body section#description div div.row div.col-12.col-lg-6 img {
+      width: 100%; }
+    body section#description div div.row div.col-12.col-lg-5.offset-lg-1 h2 {
+      color: white; }
+    body section#description div div.row div.col-12.col-lg-5.offset-lg-1 h3 span.red {
+      color: white; }
+  body section#browser {
+    height: 710px; }
+    body section#browser div div div img {
+      width: 100%; }
+  body section#try-now div div div.col-12.col-md-3 input {
+    width: 165px; }
+  body footer div div div.col-4.col-md-4 input[type="email"] {
+    width: 168px; } }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px; }
+    body header {
+      height: 690px; }
+    body section#section3 {
+      height: 980px;
+      background: url("../img/Earphones.png") 100% -6% no-repeat, url("../img/Coffee Cup.png") 130% 125% no-repeat, url("../img/Pen holder.png") -10% -8% no-repeat, #f6f5f3; }
+    body section#clients {
+      height: 800px; }
+      body section#clients div div.row.align-items-center {
+        padding-top: 40px; }
+        body section#clients div div.row.align-items-center div {
+          text-align: center; }
+          body section#clients div div.row.align-items-center div:nth-child(4) {
+            padding-top: 40px; }
+          body section#clients div div.row.align-items-center div:nth-child(5) {
+            padding-top: 40px; }
+    body section#browser {
+      height: 660px; }
+    body section#try-now {
+      height: 600px; }
+      body section#try-now div div div.col-12 {
+        padding-top: 20px; }
+      body section#try-now div div div.col-12.col-md-3 {
+        text-align: center; }
+        body section#try-now div div div.col-12.col-md-3 input {
+          width: 210px; }
+    body footer div {
+      padding-top: 10px; }
+      body footer div div div.col-4.col-md-4 input[type="email"] {
+        width: 155px; }
+      body footer div div div.col-4.col-md-4 button[type="submit"] {
+        top: 70px;
+        right: 10px;
+        border: 1px solid rgba(40, 40, 40, 0.6); } }
